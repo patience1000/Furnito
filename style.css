@@ -32,13 +32,39 @@
     font-family: "montserrat";
   }
 
+  #top-nav .search-container {
+    float: left;
+    
+  }
+
   #top-nav input[type=text] {
     padding:8px;
+    margin-left: 40px;
     color: #fff;
-    background-color: #2B495E;
     border-radius: 3%;
     margin-top: 15px;
-    /* margin-right: 30px; */
     font-size: 0.9em;
+    z-index: 1;
+    position: relative;
+    background-color: #2B495E;
   }
+
+  #topnav .search-container button {
+    /* float: left; */
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    position:absolute;
+    z-index: 2;
+    padding-right: 30px;
+
+  }
+
   
+  #topnav .search-container button:hover {
+    background: #ccc;
+  }
+  #icons{
+    float:right;
+    padding-right: 20px;
+  }
