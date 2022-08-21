@@ -29,6 +29,7 @@
     float: left;
     display: block;
     color: black;
+    font-family: "montserrat";
   }
 
   #top-nav input[type=text] {
