@@ -18,6 +18,10 @@
     font-size: 1.3em;
   }
 
+  .nav-bar a:hover{
+    background-color: #2B495E;
+  }
+
   .dropdown {
     float: left;
     overflow: hidden;
@@ -99,7 +103,6 @@
   }
 
   .nav-bar .search-container button {
-    /* float: left; */
     font-size: 17px;
     border: none;
     cursor: pointer;
@@ -112,7 +115,6 @@
     background: #ccc;
   }
   #icons{
-    float:right;
     padding-right: 20px;
   }
 
