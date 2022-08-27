@@ -133,6 +133,11 @@
     display: none;
   }
 
+  .furniture{
+    height: 100vh;
+    background-color: #ccc;
+  }
+
   /* Media queries */
 @media screen and (max-width: 600px) {
   #icons{
