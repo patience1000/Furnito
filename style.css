@@ -30,7 +30,7 @@
   }
   
   .dropdown .dropbtn {
-    font-size: 1.3em;    
+    font-size: 1em;    
     border: none;
     outline: none;
     color: #f2f2f2;
@@ -79,7 +79,7 @@
   }
 
   #head{
-    font-size: 1.6em;
+    font-size: 1.3em;
     padding: 16px 90px;
     float: left;
     display: block;
@@ -131,12 +131,31 @@
   }
   .nav-bar .icon{
     display: none;
-
   }
 
-
   /* Media queries */
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
+  #icons{
+    float: none;
+  }
+
+  .top-nav .search-container {
+    float: none;
+  }
+  .top-nav a, .topnav input[type=text], .top-nav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .top-nav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+@media screen and (max-width: 600px) {
   .top-nav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
