@@ -137,6 +137,10 @@
     height: 100vh;
     background-color: #ccc;
   }
+  .first-slide{
+    display: flex;
+    
+  }
 
   /* Media queries */
 @media screen and (max-width: 600px) {
