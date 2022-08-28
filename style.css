@@ -135,11 +135,20 @@
 
   .furniture{
     height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ccc;
   }
   .first-slide{
     display: flex;
-    
+  }
+  .furn-img{
+    text-align: center;
+    width: 25%;
+  }
+  .furn-img{
+    font-size: 1em;
   }
 
   /* Media queries */
