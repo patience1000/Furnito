@@ -134,9 +134,24 @@
   }
 
   .customer{
-    
-  }
+    display: flex;
+    justify-content: flex-end;
 
+  }
+  .cus-head{
+    padding-top: 40px;
+  }
+  .cus-head p{
+    padding: 10px 20px;
+    color: #2B495E;
+  }
+  .cus-head h2{
+    font-size: 2em;
+    color: #2B495E;
+  }
+  .cus-img{
+    padding-right: 50px;
+  }
   .customer button{
     border-style: 1px #2B495E;
     padding: 10px;
