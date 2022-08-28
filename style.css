@@ -133,6 +133,17 @@
     display: none;
   }
 
+  .customer{
+    
+  }
+
+  .customer button{
+    border-style: 1px #2B495E;
+    padding: 10px;
+    outline: none;
+    /* background-color: transparent; */
+  }
+
   .furniture{
     height: 100vh;
     display:flex;
@@ -145,6 +156,7 @@
   }
   .furn-img{
     text-align: center;
+    padding: 20px;
     width: 25%;
   }
   .furn-img{
