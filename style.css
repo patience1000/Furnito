@@ -153,13 +153,20 @@
     padding-right: 50px;
   }
   .customer button{
-    border-style: 1px #2B495E;
+    border: none;
+    color: #2B495E;
+    text-align: center;
+    text-decoration: none;
+    border:1px solid #2B495E;
+    transition-duration: 0.4s;
+    cursor: pointer;
     margin-left: 60px;
     padding: 8px 15px;
-    border:#BC983C;
-    
-
-    /* background-color: transparent; */
+    background-color: transparent;
+  }
+  .customer button:hover{
+    background-color: #2B495E;
+    color: #fff;
   }
   .furn-head{
     font-size: 2.3em;
