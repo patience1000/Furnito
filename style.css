@@ -188,7 +188,10 @@
     padding: 20px;
     width: 25%;
   }
-  
+  .furn-img h2{
+    font-size: 1.4em;
+    font-weight: 400;
+  }
 
   /* Media queries */
 @media screen and (max-width: 600px) {
