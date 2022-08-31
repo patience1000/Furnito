@@ -200,7 +200,7 @@
     padding-bottom:30px;
     padding-left: 20px;
     color: #2B495E;
-    font-weight:500;
+    font-weight:600;
   }
 
   .fave-img{
@@ -212,11 +212,18 @@
   }
   .fav-slide{
     display: flex;
+    background-color: #ccc;
   }
   .fav-img{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
     text-align: center;
     padding: 20px;
     width: 25%;
+  }
+  .fav-img img{
+    width: 100%;
   }
   .fav-img h2{
     font-size: 1.4em;
