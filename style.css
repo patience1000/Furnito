@@ -194,12 +194,21 @@
     font-weight: 400;
   }
 
+  h1{
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-left: 20px;
+    color: #2B495E;
+    font-weight:500;
+  }
+
   .fave-img{
     display:flex;
     justify-content: center;
     align-items: center;
     background-color: #ccc;
-    box-shadow: 1px 1px  rgba(1, 24, 22, 0.5)
+    box-shadow: 1px 1px 1px 1px rgba(1, 24, 22, 0.5)
   }
   .fav-slide{
     display: flex;
