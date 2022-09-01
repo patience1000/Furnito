@@ -210,17 +210,25 @@
     background-color: #ccc;
     box-shadow: 1px 1px 1px 1px rgba(1, 24, 22, 0.5)
   }
-  .fav-slide{
+  .fave-slide{
+    /* background-color:black; */
     display: flex;
-    background-color: #ccc;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   .fav-img{
-    width: 350px;
+    margin: 30px;
     height: 400px;
-    background-color: #fff;
-    text-align: center;
+    width: 330px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(253, 250, 250, 0.4);
+    text-align: center;   
+  }
+  .juice-section h3{
     padding: 20px;
-    width: 25%;
+    font-weight: 500;
+  
   }
   .fav-img img{
     width: 100%;
