@@ -210,15 +210,14 @@
     background-color: #ccc;
     box-shadow: 1px 1px 1px 1px rgba(1, 24, 22, 0.5)
   }
-  .fave-slide{
-    /* background-color:black; */
+  .fav-slide{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
   }
   .fav-img{
-    margin: 30px;
-    height: 400px;
+    margin: 5px;
+    height: 300px;
     width: 330px;
     border-radius: 10px;
     background-color: white;
