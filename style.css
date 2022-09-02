@@ -247,6 +247,14 @@
     color: #111e27;
   }
 
+  .circle{
+    height: 20px;
+    width: 100%;
+    border-radius: 100%;
+    background-color: red;
+    border: #000;
+  }
+
   /* Media queries */
 @media screen and (max-width: 600px) {
   #icons{
