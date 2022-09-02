@@ -202,7 +202,7 @@
     padding-bottom:30px;
     padding-left: 20px;
     color: #000;
-    /* font-weight:600; */
+    font-weight:600;
   }
   .fimg{
     display:flex;
@@ -211,10 +211,10 @@
 
   .fimg a{
     font-size: 1em;
-    padding-top: 35px;
-    padding-bottom:30px;
+    padding-top: 75px;
     color: #000;
-    font-weight:600;
+    font-weight:400;
+    padding-right: 15px;
   }
   .fave-img{
     display:flex;
