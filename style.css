@@ -262,7 +262,41 @@
     padding: 1px #000;
   }
 
-  .
+  .contact{
+    display: flex;
+    padding: 10px;
+    margin-top: 80px;
+    background-color: #2B495E;
+  }
+
+  .Form{
+    margin-left: 200px;
+  }
+  .menu h1{
+    font-size: 1.3em;
+    color: #fff;
+    padding: 20px 0 0 50px;
+  }
+
+  .Form h4{
+    padding-top: 60px;
+    color: #fff;
+  }
+
+  .form{
+    padding-top: 10px;
+  }
+
+  .form-control{
+    padding: 10px 300px 10px 10px;
+    border-radius: 2%;
+  }
+
+  .sub-btn{
+    padding: 9.5px;
+    border-radius: 0 2px;
+    background-color: #BC983C;
+  }
 
   /* Media queries */
 @media screen and (max-width: 600px) {
