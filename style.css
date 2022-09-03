@@ -246,7 +246,8 @@
   }
 
   .rate{
-    display: ;
+    float: left;
+    /* display: inline; */
   }
   .fav-img num{
     padding-left: 10px;
@@ -260,6 +261,8 @@
     background-color: red;
     padding: 1px #000;
   }
+
+  .
 
   /* Media queries */
 @media screen and (max-width: 600px) {
