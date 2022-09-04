@@ -261,7 +261,9 @@
     background-color: red;
     padding: 1px #000;
   }
-
+  .footer{
+    background-color: #2B495E;
+  }
   .contact{
     display: flex;
     padding: 10px;
@@ -298,7 +300,7 @@
     position: relative;
     color: #fff;
     right: 3.7px;
-    padding: 9.5px;
+    padding: 9px;
     border-radius: 0 2px;
     background-color: #BC983C;
     text-decoration: none;
