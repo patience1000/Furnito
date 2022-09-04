@@ -262,7 +262,11 @@
     padding: 1px #000;
   }
   .footer{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
     background-color: #2B495E;
+    
   }
   .contact{
     display: flex;
