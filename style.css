@@ -4,6 +4,7 @@
     padding: 0;
     border:0;
 }
+
   .nav-bar{
     overflow: hidden;
     background-color: #BC983C;
@@ -136,7 +137,6 @@
   .customer{
     display: flex;
     justify-content: space-around;
-
   }
   .cus-head{
     padding-top: 8%;
@@ -172,7 +172,6 @@
   .furn-head{
     font-size: 2.3em;
     padding-top: 18%;
-    
   }
   .furniture{
     height: 80vh;
@@ -367,4 +366,146 @@
     text-align: left;
   }
 }
-  
+@media screen and (max-width: 600px) {
+  .customer{
+    padding-left: 50px;
+    flex-direction: column-reverse;
+  }
+  .cus-head{
+    padding-top: 8%;
+  }
+  .cus-head p{
+    font-size: 1em;
+    padding: 23px 0 28px;
+    color: #2B495E;
+  }
+  .cus-head h2{
+    font-size: 2em;
+    padding-left: 40px;
+    color: #2B495E;
+  }
+  .cus-img{
+    padding-right: 50px;
+  }
+  .customer button{
+    background-color: #2B495E;
+    color: #fff;
+    margin-left: 90px;
+    padding: 7px 15px;
+    font-size: 0.8em;
+
+  }
+  .furn-head{
+    margin-right: 80px;
+    font-size: 1.5em;
+    padding-top: 12%;
+  }
+  .customer img{
+    display: none;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .customer{
+    flex-direction: column-reverse;
+  }
+  .cus-head{
+    text-align: center;
+    padding-top: 6%;
+  }
+  .cus-head h2{
+    font-size: 3em;
+  }
+  .cus-head p{
+    text-align: center;
+    font-size: 2em;
+    color: #2B495E;
+  }
+
+  .customer button{
+    background-color: #2B495E;
+    color: #fff;
+    margin-right: 60px;
+    padding: 8px 18px;
+    font-size: 0.8em;
+  }
+  .furn-head{
+    margin-left: 30px;
+    font-size: 2.2em;
+    padding-top: 10%;
+  }
+  .cus-img{
+    padding-left: 60px;
+
+}
+}
+
+@media screen and (width: 540px) {
+  .customer{
+    flex-direction: column-reverse;
+  }
+  .cus-head{
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 6%;
+  }
+  .cus-head h2{
+    padding-right: 40px;
+    font-size: 2em;
+  }
+  .cus-head p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #2B495E;
+  }
+
+  .customer button{
+    background-color: #2B495E;
+    color: #fff;
+    margin-right: 120px;
+    padding: 7px 15px;
+    font-size: 0.8em;
+  }
+  .furn-head{
+    font-size: 2em;
+    padding-top: 10%;
+  }
+  .cus-img{
+    padding-left: 60px;
+}
+}
+
+@media screen and (width: 280px) {
+  .customer{
+    flex-direction: column-reverse;
+  }
+  .cus-head{
+    margin-right: 30px;
+    padding-top: 6%;
+  }
+  .cus-head h2{
+    text-align: center;
+    padding-right: 40px;
+    font-size: 2em;
+  }
+  .cus-head p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #2B495E;
+  }
+
+  .customer button{
+    text-align: center;
+    background-color: #2B495E;
+    color: #fff;
+    padding: 7px 25px;
+    font-size: 0.6em;
+  }
+  .furn-head{
+    font-size: 1.2em;
+    padding-top: 10%;
+  }
+  .cus-img{
+    padding-left: 60px;
+}  
+}
