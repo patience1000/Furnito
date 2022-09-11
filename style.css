@@ -366,6 +366,90 @@
     text-align: left;
   }
 }
+/* Home page */
+@media screen and (min-width: 1024px) {
+  .customer{
+    flex-direction: row;
+  }
+  .cus-head{
+    padding-top: 8%;
+  }
+  .cus-head p{
+    font-size: 1em;
+    padding: 23px 0 28px;
+    color: #2B495E;
+  }
+  .cus-head h2{
+    font-size: 2em;
+    color: #2B495E;
+  }
+  .cus-img{
+    padding-top: 2%;
+    padding-right: 50px;
+  }
+  .customer button{
+    border: none;
+    color: #2B495E;
+    text-align: center;
+    text-decoration: none;
+    border:1px solid #2B495E;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 7px 18px;
+    font-size: 1em;
+    background-color: transparent;
+  }
+  .customer button:hover{
+    background-color: #2B495E;
+    color: #fff;
+  }
+  .customer img{
+    display: block;
+  }
+}
+.furn-head{
+  padding-top: 18%;
+}
+
+@media screen and (min-width: 768px) {
+  .customer{
+    flex-direction: column-reverse;
+  }
+  .cus-head{
+    text-align: center;
+    padding-top: 6%;
+  }
+  .cus-head h2{
+    font-size: 3em;
+  }
+  .cus-head p{
+    text-align: center;
+    font-size: 2em;
+    color: #2B495E;
+  }
+
+  .customer button{
+    background-color: #2B495E;
+    color: #fff;
+    margin-right: 150px;
+    padding: 8px 18px;
+    font-size: 0.8em;
+  }
+  .furn-head{
+    margin-left: 30px;
+    font-size: 2.2em;
+    padding-top: 10%;
+  }
+  .cus-img{
+    padding-left: 10px;
+    
+}
+.customer img{
+  display: block;
+}
+}
+
 @media screen and (max-width: 600px) {
   .customer{
     padding-left: 50px;
@@ -405,38 +489,42 @@
 }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .customer{
+    padding-left: 50px;
     flex-direction: column-reverse;
   }
   .cus-head{
-    text-align: center;
-    padding-top: 6%;
-  }
-  .cus-head h2{
-    font-size: 3em;
+    padding-top: 8%;
   }
   .cus-head p{
-    text-align: center;
-    font-size: 2em;
+    font-size: 1em;
+    padding: 23px 0 28px;
     color: #2B495E;
   }
-
+  .cus-head h2{
+    font-size: 2em;
+    padding-left: 40px;
+    color: #2B495E;
+  }
+  .cus-img{
+    padding-right: 50px;
+  }
   .customer button{
     background-color: #2B495E;
     color: #fff;
-    margin-right: 60px;
-    padding: 8px 18px;
+    margin-left: 90px;
+    padding: 7px 15px;
     font-size: 0.8em;
+
   }
   .furn-head{
-    margin-left: 30px;
-    font-size: 2.2em;
-    padding-top: 10%;
+    margin-right: 80px;
+    font-size: 1.5em;
+    padding-top: 12%;
   }
-  .cus-img{
-    padding-left: 60px;
-
+  .customer img{
+    display: none;
 }
 }
 
