@@ -520,9 +520,11 @@
   }
 }
 .furniture{
+  display: block;
+  
   padding: 0%;
   overflow: hidden;
-  width: 100%;
+  width: 200%;
   flex-direction: column;
 }
 
@@ -534,10 +536,10 @@
 .furn-img{
   text-align: center;
   padding: 0px;
-  width: 50%;
+  width: 10%;
 }
 .furn-img h2{
-  font-size: 1.4em;
+  font-size: .8em;
   font-weight: 400;
 }
 
