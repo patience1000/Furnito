@@ -521,7 +521,6 @@
 }
 .furniture{
   display: block;
-
   padding: 0%;
   overflow: hidden;
   width: 100%;
@@ -529,6 +528,7 @@
 }
 
 .first-slide{
+  align-items: center;
   padding: 0;
   flex-direction: column;
   overflow: hidden;
@@ -539,8 +539,8 @@
   width: 80%;
 }
 .furn-img h2{
-  font-size: .8em;
-  font-weight: 400;
+  font-size: .9em;
+  font-weight: 500;
 }
 
 h1{
@@ -704,10 +704,42 @@ h1{
   .cus-img{
     padding-left: 10px;
     
-}
-.customer img{
+ }
+ .customer img{
   display: block;
-}
+ }
+
+ .furniture{
+  width: 100%;
+  flex-direction: row;
+ }
+
+ .first-slide{
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+ }
+ .furn-img{
+   text-align: center;
+   padding-left: 10px;
+   width: 100%;
+ }
+ .furn-img h2{
+   font-size: 1.5em;
+   font-weight: 500;
+ }
+
+ h1{
+   font-size: 2em;
+   padding-top: 30px;
+   padding-bottom:30px;
+   padding-left: 20px;
+   color: #000;
+   font-weight:600;
+ }
+ .furn-head{
+   padding-top: 18%;
+ }
 }
 
 @media screen and (min-width: 1024px) {
@@ -750,10 +782,41 @@ h1{
   .customer img{
     display: block;
   }
+  /* furniture section*/
+
+ .furniture{
+  width: 100%;
+  flex-direction: row;
+ }
+
+ .first-slide{
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+ }
+ .furn-img{
+   text-align: center;
+   padding-left: 10px;
+   width: 100%;
+ }
+ .furn-img h2{
+   font-size: 1.5em;
+   font-weight: 500;
+ }
+
+ h1{
+   font-size: 2em;
+   padding-top: 30px;
+   padding-bottom:30px;
+   padding-left: 20px;
+   color: #000;
+   font-weight:600;
+ }
+ .furn-head{
+   padding-top: 18%;
+ }
 }
-.furn-head{
-  padding-top: 18%;
-}
+
 @media screen and (width: 540px) {
   .customer{
     flex-direction: column-reverse;
@@ -787,7 +850,41 @@ h1{
   .cus-img{
     padding-left: 60px;
 }
+
+.furniture{
+  width: 100%;
+  flex-direction: row;
+ }
+
+ .first-slide{
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+ }
+ .furn-img{
+   text-align: center;
+   padding-left: 10px;
+   width: 100%;
+ }
+ .furn-img h2{
+   font-size: 1.5em;
+   font-weight: 500;
+ }
+
+ h1{
+   font-size: 2em;
+   padding-top: 30px;
+   padding-bottom:30px;
+   padding-left: 20px;
+   color: #000;
+   font-weight:600;
+ }
+ .furn-head{
+   padding-top: 18%;
+ }
+  
 }
+
 
 @media screen and (width: 280px) {
   .customer{
