@@ -551,11 +551,6 @@ h1{
   color: #000;
   font-weight:600;
 }
-.fimg{
-  /* display:flex; */
-  /* justify-content: space-between; */
-}
-
 .fimg a{
   font-size: 1em;
   padding-top: 75px;
@@ -783,7 +778,6 @@ h1{
     display: block;
   }
   /* furniture section*/
-
  .furniture{
   width: 100%;
   flex-direction: row;
@@ -853,18 +847,18 @@ h1{
 
 .furniture{
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
  }
 
  .first-slide{
   align-items: center;
   padding: 20px;
-  flex-direction: row;
+  flex-direction: column;
  }
  .furn-img{
    text-align: center;
    padding-left: 10px;
-   width: 100%;
+   width: 80%;
  }
  .furn-img h2{
    font-size: 1.5em;
