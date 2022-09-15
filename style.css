@@ -310,6 +310,7 @@
 
   .customer{
     display: flex;
+    padding-top: 50px;
     justify-content: space-around;
   }
   .cus-head{
