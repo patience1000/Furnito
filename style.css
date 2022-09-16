@@ -570,6 +570,35 @@ h1{
   box-shadow: 1px 1px 1px 1px rgba(1, 24, 22, 0.5)
 }
 
+.fave-img{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  box-shadow: 1px 1px 1px 1px rgba(1, 24, 22, 0.5)
+}
+
+.fav-img{
+  margin: 30px;
+  height: 260px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgb(1, 25, 28, 0.4);
+}
+
+.fav-img img{
+  width: 100%;
+}
+.fav-img h2{
+  font-size: 1.4em;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.rate{
+  float: left;}
+
 @media screen and (max-width: 600px) {
   .top-nav.responsive {position: relative;}
   .top-nav.responsive .icon {
