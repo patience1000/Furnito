@@ -949,8 +949,12 @@ h1{
 .fave-img{
   flex-direction: column;
 }
+.fav-img{
+  margin: 30px;
+  height: 330px;
+  width: 400px;
 }
-
+}
 
 @media screen and (width: 280px) {
   .customer{
