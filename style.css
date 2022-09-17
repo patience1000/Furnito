@@ -226,7 +226,7 @@
    float: none;
    display: block;
  }
- 
+
   .topnav.responsive #head {
     display: none;
  }
@@ -713,6 +713,7 @@ h1{
 
  .furniture{
   width: 100%;
+  height: auto;
   flex-direction: row;
  }
 
@@ -727,6 +728,7 @@ h1{
    width: 100%;
  }
  .furn-img h2{
+  padding-bottom: 40px;
    font-size: 1.5em;
    font-weight: 500;
  }
