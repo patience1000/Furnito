@@ -751,8 +751,8 @@ h1{
 
 .fav-img{
   margin: 30px;
-  height: 360px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 2px 2px 2px 2px rgb(1, 25, 28, 0.4);
@@ -840,6 +840,22 @@ h1{
  .furn-head{
    padding-top: 18%;
  }
+
+ .fave-img{
+  flex-direction: row;
+ }
+ .fav-img{
+  margin: 30px;
+  height: 260px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgb(1, 25, 28, 0.4);
+ }
+
+ .fav-img img{
+  width: 100%;
+ }
 }
 
 @media screen and (width: 540px) {
@@ -915,7 +931,6 @@ h1{
   background-color: #ccc;
   box-shadow: 1px 1px 1px 1px rgba(1, 24, 22, 0.5)
 }
-
 .fave-img{
   flex-direction: column;
 }
