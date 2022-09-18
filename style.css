@@ -996,4 +996,60 @@ h1{
   background-color: white;
   box-shadow: 2px 2px 2px 2px rgb(1, 25, 28, 0.4);
 }
+
+.footer{
+  flex-direction: column;
+  justify-content: space-between;
+  /* color: #fff;
+  display: flex;
+  padding: 15px 30px 20px;
+  justify-content: space-between;
+  background-color: #2B495E; */
+}
+.footer a{
+  color: #fff;
+}
+.contact{
+  flex-direction: column;
+  /* display: flex;
+  padding: 10px;
+  margin-top: 80px;
+  background-color: #2B495E; */
+}
+
+.Form{
+  margin-left: 0px;
+}
+.menu h1{
+  font-size: 1.5em;
+  color: #fff;
+  padding: 20px 0 0 20px;
+}
+
+.Form h4{
+  padding-top: 60px;
+  color: #fff;
+}
+
+.form{
+  padding-top: 10px;
+  position: relative;
+}
+
+.form-control{
+  border:1px solid #2B495E;
+  padding: 9px 10px 10px 10px;
+  border-radius: 2%;
+}
+
+.sub-btn{
+  position: relative;
+  color: #fff;
+  right: 5px;
+  top: 1px;
+  padding: 9.5px;
+  border-radius: 0 2px;
+  background-color: #BC983C;
+  text-decoration: none;
+}
 }
