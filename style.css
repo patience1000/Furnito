@@ -451,6 +451,9 @@
   .footer a{
     color: #fff;
   }
+  .footer a:hover{
+    color: #BC983C;
+  }
   .contact{
     display: flex;
     padding: 10px;
