@@ -1048,18 +1048,6 @@ h1{
 .form-control{
   border:1px solid #2B495E;
   padding: 9px 300px 10px 10px;
-  border-radius: 2%;
-}
-
-.sub-btn{
-  position: relative;
-  color: #fff;
-  right: 5px;
-  top: 1px;
-  padding: 9.5px;
-  border-radius: 0 2px;
-  background-color: #BC983C;
-  text-decoration: none;
 }
 }
 
