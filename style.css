@@ -498,6 +498,11 @@
     text-decoration: none;
   }
 
+  #about-section{
+    display: flex;
+    justify-content: space-between;
+  }
+
   /* Media queries */
 @media screen and (max-width: 600px) {
   #icons{
@@ -891,9 +896,12 @@ h1{
 .Form{
   margin-left: 0px;
 }
-.menu h1{
+.menu h1 {
   font-size: 2.5em;
   padding: 20px 0 0 20px;
+}
+.menu a{
+  text-decoration: none;
 }
 
 .Form h4{
