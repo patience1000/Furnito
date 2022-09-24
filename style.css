@@ -351,7 +351,7 @@
   }
   
  .cushin{
-  width: 50%;
+  /* width: 50%; */
  }
   .furniture{
     height: 80vh;
@@ -842,7 +842,7 @@ h1{
    font-weight:600;
  }
  .furn-head{
-   padding-top: 18%;
+   /* padding-top: 18%; */
  }
 
  .fave-img{
@@ -989,13 +989,14 @@ h1{
    font-weight:600;
  }
  .furn-head{
-  display: flex;  
-  flex-direction: column;
+  /* display: flex;   */
+  /* flex-direction: column; */
   /* padding-top: 18%; */
  }
 
 .cushin{
-  
+  width: 300px;
+  height: 400px;
 }
 
  .fave-img{
