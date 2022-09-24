@@ -500,7 +500,7 @@
 
   #about-section{
     display: flex;
-    justify-content: space-between;
+    font-size: 1.2em;
   }
 
   /* Media queries */
