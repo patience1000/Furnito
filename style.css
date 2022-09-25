@@ -503,6 +503,10 @@
     font-size: 1.2em;
   }
 
+  .abt-img img{
+    border-radius: 100%;
+  }
+
   /* Media queries */
 @media screen and (max-width: 600px) {
   #icons{
