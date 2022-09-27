@@ -500,11 +500,15 @@
 
   #about-section{
     display: flex;
+    width: 100%;
+    justify-content: space-evenly;
     font-size: 1.2em;
   }
 
+
   .abt-img img{
-    border-radius: 100%;
+    width: 450px;
+    height: 450px;
   }
 
   /* Media queries */
