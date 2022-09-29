@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furnito-Gallary</title>
     <link rel="stylesheet" href="style.css">
+
      <!--  Javascript-->
-    <script src="Script.js"></script>
+   <script src="Script.js"></script>
 </head>
 <body>
     <div id="about-section">
@@ -32,66 +33,61 @@
     </div>
 
     <!-- Furniture slide -->
-    <div class="container">
-        <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
-          <img src="images (8).jfif" style="width:50%">
+    <div class="Sale">
+        <h2>EVENTS AT PEARL'S KITCHEN</h2>
+        <div class="switch-btn">
+            <button class="sale-btn" onclick="Show1()">Prev</button>
+            <button class="sale-btn" onclick="Show2()">Next</button>
         </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
-          <img src="download (10).jfif" style="width:50%">
+        <div id="div1">
+            <div class="sale1">
+                <div class="sale1-section">
+                    <img src="images (8).jfif">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere accusamus dolore iure ea option</p>
+                    <button>$10</button>
+                </div> 
+    
+                <div class="sale1-section">
+                    <img src="download (9).jfif">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere accusamus dolore iure ea option</p>
+                    <button>$12</button>
+                </div>
+    
+                <div class="sale1-section">
+                    <img src="download (8).jfif">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere accusamus dolore iure ea option</p>
+                    <button>$150</button>
+                </div>
+            </div>
+            
         </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
-          <img src="download (7).jfif" style="width:50%">
+        <div id="div2">
+            <div class="sale2">
+                <div class="sale2-section">
+                    <img src="download (7).jfif" alt="">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere accusamus dolore iure ea option</p>
+                    <button>$130</button>
+                </div> 
+    
+                <div class="sale2-section">
+                    <img src="download (10).jfif" alt="">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere accusamus dolore iure ea option</p>
+                    <button>$100</button>
+                </div>
+    
+                <div class="sale2-section">
+                    <img src="download (8).jfif" alt="">
+                    <h3>Black & White Sofa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere accusamus dolore iure ea option</p>
+                    <button>$180</button>
+                </div>
+            </div>
         </div>
-          
-        <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
-          <img src="download (8).jfif" style="width:50%">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
-          <img src="download (9).jfif" style="width:50%">
-        </div>
-          
-        <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
-          <img src="download (8).jfif" style="width:50%">
-        </div>
-          
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-      
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-      
-        <div class="row">
-          <div class="column">
-            <img class="demo cursor" src="download (9).jfif" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="download (9).jfif" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="download (9).jfif" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="download (9).jfif" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="download (9).jfif" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-          </div>    
-          <div class="column">
-            <img class="demo cursor" src="download (9).jfif" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-          </div>
-        </div>
-      </div>
-      
     
 </body>
 </html>
