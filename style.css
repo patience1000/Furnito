@@ -530,8 +530,106 @@
   }
 
 /* furniture slide */
+/* Sale section */
+#div2{display: none;}
+.Sale{
+    background-color: #2B495E;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Sale h3{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight: 400;
+}
 
+.sale2-btn{ 
+    padding: 5px 35px;
+    margin: 15px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color:#BC983C;
+}
+.sale1-btn{ 
+    padding: 5px 35px;
+    margin: 15px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color:#BC983C;
+}
+.sale1{
+    background-color:#2B495E;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sale1-section{
+    margin: 10px;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(170, 161, 161, 0.4);
+    text-align: center;   
+}
 
+.sale1-section img{
+    width: 100%;
+    height: 50%; 
+    border-radius:5px ;
+}
+.sale1-section h3{
+    padding: 20px;
+}
+
+.sale1-section button{
+    padding: 6px 20px;
+    margin: 15px;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color:#BC983C;
+}
+
+.sale2{
+    background-color:#2B495E;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sale2-section{
+    margin: 10px;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(253, 250, 250, 0.4);
+    text-align: center;   
+}
+.sale2-section h3{
+    padding: 20px;
+}
+.sale2-section button{
+    padding: 7px 20px;
+    margin: 15px;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 15px;
+    background-color:#BC983C;
+}
+.sale2-section img{
+    width: 100%;
+    height: 50%;
+}
   /* Media queries */
 @media screen and (max-width: 600px) {
   #icons{
