@@ -571,10 +571,10 @@
     justify-content: space-evenly;
 }
 .sale1-section{
-    margin: 10px;
-    height: 400px;
+    margin: 20px;
+    height: 350px;
     width: 330px;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: white;
     text-align: center;   
 }
@@ -582,7 +582,7 @@
 .sale1-section img{
     width: 100%;
     height: 50%; 
-    border-radius:5px ;
+    border-radius:3px ;
 }
 .sale1-section h3{
     padding: 20px;
@@ -593,7 +593,7 @@
     margin: 15px;
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1.6rem;
     border-radius: 10px;
     background-color:#BC983C;
 }
@@ -604,10 +604,10 @@
     justify-content: space-evenly;
 }
 .sale2-section{
-    margin: 10px;
-    height: 400px;
+    margin: 20px;
+    height: 350px;
     width: 330px;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: white;
     text-align: center;   
 }
@@ -619,8 +619,8 @@
     margin: 15px;
     border: none;
     color: white;
-    font-size: 2rem;
-    border-radius: 15px;
+    font-size: 1.6rem;
+    border-radius: 10px;
     background-color:#BC983C;
 }
 .sale2-section img{
