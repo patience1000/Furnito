@@ -798,6 +798,10 @@ h1{
   padding: 20px 0 0 20px;
  }
 
+ .menu a{
+  text-decoration: none;
+ }
+
  .Form h4{
   padding-top: 60px;
   color: #fff;
@@ -904,6 +908,11 @@ h1{
 .menu h1{
   font-size: 1.5em;
   padding: 20px 0 0 20px;
+  text-decoration: none;
+}
+
+.menu a{
+  text-decoration: none;
 }
 
 .Form h4{
@@ -1326,6 +1335,10 @@ h1{
 .menu h1{
   font-size: 1.5em;
   padding: 20px 0 0 20px;
+}
+
+.menu a{
+  text-decoration: none;
 }
 
 .Form h4{
