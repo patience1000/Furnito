@@ -535,14 +535,13 @@
 /* Sale section */
 #div2{display: none;}
 .Sale{
-    background-color: #BC983C;
-    /* height: 100vh; */
+    background-color: #2B495E;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
-.Sale h3{
+.Sale h2{
     color: white;
     text-align: center;
     font-size: 2.5em;
@@ -550,6 +549,16 @@
     margin-top: 50px;
     margin-bottom: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Sale h3{
+  color: #000;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+  /* margin-top: 50px; */
+  /* margin-bottom: 30px; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .sale2-btn{ 
     padding: 5px 35px;
@@ -560,12 +569,9 @@
     color: white;
     font-size: 1.1rem;
     border-radius: 5px;
-    background-color:#2B495E;
+    background-color:#BC983C;
 }
-.sale1-btn:hover{
-  background-color: #d1a128;
-} 
-.sale2-btn:hover{
+.sale1-btn,.sale2-btn:hover{
   background-color: #d1a128;
 } 
 .sale1-btn{ 
@@ -599,7 +605,7 @@
     border-radius:5px 5px 0 0;
 }
 .sale1-section h3{
-    /* padding: 20px; */
+    padding: 20px;
     font-weight:500;
 }
 .sale1-section button a{
@@ -607,17 +613,17 @@
   color: #fff; 
 }
 .sale1-section button{
-    padding: 6px 20px;
+    padding: 4px 20px;
     margin: 15px;
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-radius: 15px;
-    background-color:#2B495E;
+    background-color:#BC983C;
 }
 
 .sale2{
-    background-color:#BC983C;
+    background-color:#2B495E;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -631,7 +637,7 @@
     text-align: center;   
 }
 .sale2-section h3{
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 .sale2-section button a{
@@ -639,13 +645,13 @@
   color: #fff; 
 }
 .sale2-section button{
-    padding: 6px 20px;
+    padding: 4px 20px;
     margin: 15px;
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-radius: 15px;
-    background-color:#2B495E;
+    background-color:#BC983C;
 }
 .sale2-section img{
     width: 100%;
