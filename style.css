@@ -554,16 +554,13 @@
 .Sale h3{
   color: #000;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 400;
-  /* margin-top: 50px; */
-  /* margin-bottom: 30px; */
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .sale2-btn{ 
     padding: 5px 35px;
     margin-left: 10px;
-    /* margin: 20px; */
     border: none;
     cursor: pointer;
     color: white;
@@ -571,8 +568,8 @@
     border-radius: 5px;
     background-color:#BC983C;
 }
-.sale1-btn,.sale2-btn:hover{
-  background-color: #d1a128;
+.sale1-btn:hover{
+  background-color: #a38129;
 } 
 .sale1-btn{ 
     padding: 5px 35px;
@@ -878,8 +875,7 @@ h1{
   padding: 15px 0;
  }
  .abt-img img{
-  width: 400px;
-  height: 400px;
+  display:none;
  }
 }
 
@@ -1415,7 +1411,6 @@ h1{
     font-size: 1.2em;
     color: #2B495E;
   }
-
   .customer button{
     text-align: center;
     background-color: #2B495E;
@@ -1481,5 +1476,15 @@ h1{
 .sub-btn{
   padding: 9.8px;
   border-radius: 0 2px;
+}
+.sale1-section{
+  width: 200%;
+  height: 300%;
+  border-radius:5px 5px 0 0;
+}
+.sale2-section{
+  width: 200px;
+  height: 300%;
+  border-radius:5px 5px 0 0;
 }
 }
