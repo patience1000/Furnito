@@ -1331,7 +1331,7 @@ h1{
 
 .point p{
   font-size: 1em;
-  line-height: 15px;
+  line-height: 1 px;
   padding: 10px 0;
 }
 
