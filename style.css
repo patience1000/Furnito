@@ -803,10 +803,6 @@ h1{
     display: none;
  }
 
- .first-slide{
-  flex-direction:;
- }
-
  .footer{
   flex-direction: column;
   justify-content: space-between;
