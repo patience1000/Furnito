@@ -698,7 +698,7 @@
   align-items: center;
   padding: 0;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow; */
 }
 .furn-img{
   text-align: center;
@@ -801,6 +801,10 @@ h1{
   }
   .customer img{
     display: none;
+ }
+
+ .first-slide{
+  flex-direction:;
  }
 
  .footer{
@@ -1036,8 +1040,7 @@ h1{
     padding-top: 10%;
   }
   .cus-img{
-    padding-left: 10px;
-    
+    padding-left: 10px; 
  }
  .customer img{
   display: block;
@@ -1154,7 +1157,31 @@ h1{
 }
 
 }
+@media screen and (min-width: 992px) {
+  .top-nav.responsive {position: relative;}
+  .top-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
+  .top-nav.responsive #icons{
+   float: left;
+  }
+ 
+  .top-nav.responsive .dropdown {float: none;}
+  .top-nav.responsive .dropdown-content {position: relative;}
+  .top-nav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
 @media screen and (min-width: 1024px) {
   .customer{
     flex-direction: row;
