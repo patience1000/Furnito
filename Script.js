@@ -11,11 +11,11 @@ function openPage(){
   var y = document.getElementById("search").value;
 
   if (y == "About"){
-    window.open("about.html");
+    window.open("about.htm");
   }
 
   if(y == "sale"){
-    window.location.href="#search";
+    window.location.href="about.htm#div1";
   }
 }
 function Show1() {
