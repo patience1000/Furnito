@@ -183,10 +183,8 @@
     display: block;
   }
  }
- @media screen and (max-width: 992px) {
-  
- }
- @media screen and (max-width: 820px) {
+ 
+ @media screen and (max-width: 920px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
