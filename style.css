@@ -215,20 +215,20 @@
    float: left;
    left: 100px;
    display: block;
- }
+  }
   .topnav.responsive .search-container {
     right: 25px;
    float: none;
    display: block;
- }
+  }
 
- .topnav.responsive input[type=text] {
+  .topnav.responsive input[type=text] {
   padding:8px;
   margin-left: 5px;
-}
+  }
   .topnav.responsive #head {
     display: none;
- }
+  }
  }
  
  /* For small phones */
