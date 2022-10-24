@@ -921,7 +921,7 @@ h1{
   .furn-head{
     margin-right: 80px;
     font-size: 1.5em;
-    padding-top: 12%;
+    /* padding-top: 12%; */
   }
   .customer img{
     display: none;
@@ -1033,7 +1033,7 @@ h1{
   .furn-head{
     margin-left: 30px;
     font-size: 2.2em;
-    padding-top: 10%;
+    /* padding-top: 10%; */
   }
   .cus-img{
     padding-left: 10px; 
