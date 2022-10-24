@@ -311,11 +311,11 @@
 
   .customer{
     display: flex;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     justify-content: space-around;
   }
   .cus-head{
-    padding-top: 8%;
+    /* padding-top: 12%; */
   }
   .cus-head p{
     padding: 23px 0 28px;
@@ -326,6 +326,7 @@
     color: #2B495E;
   }
   .cus-img{
+    padding-top: 15%;
     padding-right: 50px;
   }
   .customer button{
@@ -1217,6 +1218,7 @@ h1{
   }
   .customer img{
     display: block;
+    padding-top: 8%;
   }
   /* furniture section*/
  .furniture{
