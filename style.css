@@ -1005,7 +1005,7 @@ h1{
   display:none;
  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .customer{
     padding-left: 50px;
     flex-direction: column-reverse;
@@ -1014,8 +1014,16 @@ h1{
     padding-top: 8%;
     padding-left: 20%;
   }
+  .cus-head h2{
+    font-size: 2em;
+  }
+  .cus-head p{
+    font-size: 1.2em;
+  }
+  .customer img{
+    display: block;
+  }
 }
-
 @media screen and (min-width: 768px) {
   .customer{
     flex-direction: column-reverse;
