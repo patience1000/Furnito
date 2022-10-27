@@ -922,10 +922,9 @@ h1{
   .furn-head{
     margin-right: 80px;
     font-size: 1.5em;
-    /* padding-top: 12%; */
   }
   .customer img{
-    /* display: none; */
+    display: none;
 }
 
 .footer{
@@ -1005,6 +1004,16 @@ h1{
  .abt-img img{
   display:none;
  }
+}
+@media screen and (max-width: 768px) {
+  .customer{
+    padding-left: 50px;
+    flex-direction: column-reverse;
+  }
+  .cus-head{
+    padding-top: 8%;
+    padding-left: 20%;
+  }
 }
 
 @media screen and (min-width: 768px) {
