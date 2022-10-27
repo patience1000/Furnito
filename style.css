@@ -925,7 +925,7 @@ h1{
     /* padding-top: 12%; */
   }
   .customer img{
-    display: none;
+    /* display: none; */
 }
 
 .footer{
@@ -1382,8 +1382,7 @@ h1{
     font-size: 1.2em;
     color: #2B495E;
   }
-
-  .customer button{
+  .customer button{ 
     background-color: #2B495E;
     color: #fff;
     margin-right: 120px;
