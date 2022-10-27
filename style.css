@@ -311,12 +311,9 @@
 
   .customer{
     display: flex;
-    /* padding-top: 60px; */
     justify-content: space-around;
   }
-  .cus-head{
-    /* padding-top: 12%; */
-  }
+ 
   .cus-head p{
     padding: 23px 0 28px;
     color: #2B495E;
@@ -348,12 +345,8 @@
   }
   .furn-head{
     font-size: 2.3em;
-    /* padding-top: 18%; */
   }
-  
- .cushin{
-  /* width: 50%; */
- }
+ 
   .furniture{
     height: 80vh;
     display:flex;
@@ -369,7 +362,7 @@
   .furn-img{
     text-align: center;
     padding: 20px;
-    width: 25%;
+    width: 50%;
   }
   .furn-img h2{
     font-size: 1.4em;
@@ -427,7 +420,6 @@
 
   .rate{
     float: left;
-    /* display: inline; */
   }
   .fav-img num{
     padding-left: 10px;
@@ -1015,7 +1007,6 @@ h1{
     font-size: 2em;
     color: #2B495E;
   }
-
   .customer button{
     background-color: #2B495E;
     color: #fff;
@@ -1026,19 +1017,12 @@ h1{
   .furn-head{
     margin-left: 30px;
     font-size: 2.2em;
-    /* padding-top: 10%; */
   }
   .cus-img{
     padding-left: 10px; 
  }
  .customer img{
   display: block;
- }
-
- .furniture{
-  width: 100%;
-  height: auto;
-  flex-direction: row;
  }
 
  .first-slide{
@@ -1064,9 +1048,6 @@ h1{
    padding-left: 20px;
    color: #000;
    font-weight:600;
- }
- .furn-head{
-   /* padding-top: 18%; */
  }
 
  .fave-img{
@@ -1144,7 +1125,6 @@ h1{
   padding: 9.8px;
   border-radius: 0 2px;
 }
-
 }
 @media screen and (min-width: 992px) {
   .top-nav.responsive {position: relative;}
@@ -1242,11 +1222,6 @@ h1{
    padding-left: 20px;
    color: #000;
    font-weight:600;
- }
- .furn-head{
-  /* display: flex;   */
-  /* flex-direction: column; */
-  /* padding-top: 18%; */
  }
 
 .cushin{
@@ -1565,7 +1540,6 @@ h1{
   padding: 9px 10px 10px 10px;
   border-radius: 2%;
 }
-
 .sub-btn{
   padding: 9.8px;
   border-radius: 0 2px;
