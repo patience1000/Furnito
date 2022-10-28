@@ -14,7 +14,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 24px;
   text-decoration: none;
   font-size: 1.3em;
  }
@@ -345,15 +345,6 @@
   }
   .furn-head{
     font-size: 2.3em;
-  }
- 
-  .furniture{
-    height: 80vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ccc;
-    box-shadow: 3px 3px #2B495E;
   }
  
   .first-slide{
@@ -992,6 +983,22 @@ h1{
 }
 
 @media screen and (min-width: 768px) {
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 1.3em;
+   }
+
+  #head{
+  display: none;
+ }
+ .topnav .search-container button {
+  display: none;
+ }
   .customer{
     flex-direction: column-reverse;
   }
