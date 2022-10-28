@@ -184,7 +184,7 @@
   }
  }
  
- @media screen and (max-width: 920px) {
+ /* @media screen and (max-width: 920px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -229,7 +229,7 @@
   .topnav.responsive #head {
     display: none;
   }
- }
+ } */
  
  /* For small phones */
  @media screen and 
@@ -292,8 +292,8 @@
  
   .topnav.responsive .search-container button {
    float: right;
-   left: 50px;
-   bottom: 30px;
+   left: 10px;
+   bottom: 40px;
    display: block;
  }
  
