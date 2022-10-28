@@ -184,7 +184,7 @@
   }
  }
  
- /* @media screen and (max-width: 920px) {
+ @media screen and (max-width: 920px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -196,10 +196,10 @@
     display: block;
     text-align: left;
     padding: 15px 20px;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .topnav.responsive .dropbtn{
-    font-size: 1.2em;
+    font-size: 0.8em;
     padding: 15px 20px;
   }
  
@@ -229,7 +229,7 @@
   .topnav.responsive #head {
     display: none;
   }
- } */
+ }
  
  /* For small phones */
  @media screen and 
@@ -983,22 +983,30 @@ h1{
 }
 
 @media screen and (min-width: 768px) {
-  .topnav a {
-    float: left;
+  .top-nav.responsive {position: relative;}
+  .top-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top-nav.responsive a {
+    float: none;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 24px;
-    text-decoration: none;
-    font-size: 1.3em;
-   }
+    text-align: left;
+  }
 
-  #head{
-  display: none;
- }
- .topnav .search-container button {
-  display: none;
- }
+  .top-nav.responsive #icons{
+   float: left;
+  }
+ 
+  .top-nav.responsive .dropdown {float: none;}
+  .top-nav.responsive .dropdown-content {position: relative;}
+  .top-nav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
   .customer{
     flex-direction: column-reverse;
   }
