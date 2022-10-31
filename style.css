@@ -977,19 +977,19 @@ h1{
   }
 
   .topnav.responsive .search-container button {
-   /* float: left; */
-   /* left: 100px; */
+   float: left;
+   left: 100px;
    display: block;
   }
   .topnav.responsive .search-container {
     right: 25px;
-   float: none;
-   display: block;
+    float: none;
+    display: block;
   }
 
   .topnav.responsive input[type=text] {
-  padding:8px;
-  margin-left: 5px;
+   padding:8px;
+   margin-left: 5px;
   }
   .topnav.responsive #head {
     display: none;
