@@ -10,7 +10,7 @@ function myFunction() {
 function openPage(){
   var y = document.getElementById("search").value;
 
-  if (y == "about"){
+  if (y == "aout"){
     window.open("about.htm");
   }
 
