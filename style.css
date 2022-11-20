@@ -492,6 +492,12 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.Sale input{
+  width: 50px;
+  color: #ccc;
+  background-color:#a38129;
+}
 .Sale h2{
     color: white;
     text-align: center;
