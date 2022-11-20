@@ -587,28 +587,32 @@ margin-top: 15px;
 }
 .sale2-section{
     margin: 20px;
-    height: 400px;
-    width: 330px;
+    height: 310px;
+    width: 300px;
     border-radius: 10px;
-    background-color: white;
-    text-align: center;   
+    background-color: white; 
 }
 .sale2-section h3{
-    padding: 20px;
+  padding: 5px 20px;
+  font-weight:200;
 }
+
+.sale2-section p{
+  padding-left: 20px; 
+ }
 
 .sale2-section button a{
   text-decoration: none;
   color: #fff; 
 }
 .sale2-section button{
-    padding: 4px 20px;
-    margin: 15px;
-    border: none;
-    color: white;
-    font-size: 1.8rem;
-    border-radius: 15px;
-    background-color:#BC983C;
+  padding: 4px 10px;
+  margin: 5px 15px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 1px;
+  background-color:#BC983C;
 }
 .sale2-section img{
     width: 100%;
