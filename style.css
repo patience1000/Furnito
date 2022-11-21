@@ -553,7 +553,7 @@ margin-top: 15px;
 
 .sale1-section{
     margin: 20px;
-    height: 310px;
+    height: 330px;
     width: 300px;
     border-radius: 10px;
     background-color: white;    
@@ -574,10 +574,11 @@ margin-top: 15px;
 }
 .sale1-section p{
  padding-left: 20px; 
+ padding-bottom: 10px;
 }
 .sale1-section button{
     padding: 4px 10px;
-    margin: 5px 15px;
+    margin: 5px  15px;
     border: none;
     color: white;
     font-size: 1rem;
@@ -593,7 +594,7 @@ margin-top: 15px;
 }
 .sale2-section{
     margin: 20px;
-    height: 310px;
+    height: 330px;
     width: 300px;
     border-radius: 10px;
     background-color: white; 
@@ -604,8 +605,9 @@ margin-top: 15px;
 }
 
 .sale2-section p{
-  padding-left: 20px; 
- }
+  padding-left: 20px;
+  padding-top: 10px;
+}
 
 .sale2-section button a{
   text-decoration: none;
@@ -614,6 +616,7 @@ margin-top: 15px;
 .sale2-section button{
   padding: 4px 10px;
   margin: 5px 15px;
+
   border: none;
   color: white;
   font-size: 1rem;
