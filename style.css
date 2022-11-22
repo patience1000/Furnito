@@ -448,8 +448,9 @@
     background-color: #BC983C;
     text-decoration: none;
   }
-
+ 
   #about-section{
+    background-color: #f2f2f2;
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -486,8 +487,11 @@
 /* Sale section */
 #div2{display: none;}
 .Sale{
-    background-image: url(./images/pexels-vecislavas-popa-1571470.jpg);
+    background-image: url(./images/pexels-erick-mufasa-1350789.jpg);
     background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
