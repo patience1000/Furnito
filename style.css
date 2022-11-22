@@ -486,7 +486,9 @@
 /* Sale section */
 #div2{display: none;}
 .Sale{
-    background-color: #2B495E;
+    background-image: url(./images/pexels-evg-kowalievska-1148955.jpg);
+    background-repeat: no-repeat;
+    /* background-size:auto; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -547,7 +549,6 @@ margin-top: 15px;
     background-color:#BC983C;
 }
 .sale1{
-    background-color:#2B495E;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
