@@ -197,7 +197,6 @@
   }
  }
  
- 
  /* For small phones */
  @media screen and 
  (max-width: 600px) {
@@ -314,7 +313,7 @@
     font-size: 2.3em;
   }
  
-  .first-slide{
+  #first-slide{
     display: flex;
   }
   .furn-img{
@@ -554,6 +553,7 @@ margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .sale1-section{
@@ -663,7 +663,7 @@ margin-top: 15px;
   }
 }
 
-.first-slide{
+#first-slide{
   align-items: center;
   padding: 0;
   flex-direction: column;
@@ -1053,7 +1053,7 @@ h1{
   display: block;
  }
 
- .first-slide{
+ #first-slide{
   align-items: center;
   padding: 20px;
   flex-direction: row;
@@ -1228,7 +1228,7 @@ h1{
   flex-direction: row;
  }
 
- .first-slide{
+ #first-slide{
   align-items: center;
   padding: 20px;
   flex-direction: row;
@@ -1397,7 +1397,7 @@ h1{
   flex-direction: column;
  }
 
- .first-slide{
+ #first-slide{
   align-items: center;
   padding: 20px;
   flex-direction: column;
