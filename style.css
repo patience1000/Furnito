@@ -382,12 +382,14 @@
     padding-left: 10px;
     color: #111e27;
   }
-
+  .points{
+    display: flex;
+  }
   .circle{
-    height: 5%;
-    width: 5%;
+    height: 25px;
+    width: 25px;
     border-radius: 100%;
-    background-color: red;
+    background-color:#2B495E;
     padding: 1px #000;
   }
   .footer{
