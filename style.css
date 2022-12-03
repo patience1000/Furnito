@@ -382,16 +382,19 @@
     padding-left: 10px;
     color: #111e27;
   }
+ 
   .points{
     display: flex;
   }
   .circle{
-    height: 25px;
-    width: 25px;
+    height: 28px;
+    width: 28px;
     color: #fff;
     border-radius: 100%;
     background-color:#111e27;
     margin-right: 10px;
+    margin-top: 30px;
+    text-align: center;
   }
   .footer{
     color: #fff;
@@ -477,11 +480,11 @@
   .point p{
     font-size: 1.1em;
     line-height: 20px;
-    padding: 15px 0;
   }
   .abt-img img{
+    margin-top: 26%;
     width: 450px;
-    height: 340px;
+    height: 400px;
     border-radius: 10px;
   }
 
@@ -966,11 +969,13 @@ h1{
  }
  .point h4{
   font-size: 1.4em;
+  padding-top: 30px;
  }
 
  .point p{
   font-size: 1.4em;
-  padding: 15px 0;
+  padding: 0px 0;
+  margin-left: 35px;
  }
  .abt-img img{
   display:none;
