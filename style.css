@@ -159,7 +159,7 @@
     position:relative;
     right: 5px;
     background-color: #2B495E;
-    float: right;
+    /* float: right; */
     padding: 6px 10px;
     margin-top: 15px;
     margin-right: 16px;
