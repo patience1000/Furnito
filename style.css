@@ -84,8 +84,7 @@
  
  #head{
     font-size: 1.4em;
-    padding: 16px 90px 10px 0
-    ;
+    padding: 16px 90px;
     float: left;
     display: block;
     color: black;
@@ -100,7 +99,7 @@
  .topnav input[type=text] {
   padding:8px;
   outline: none;
-  /* margin-left: 40px; */
+  margin-left: 40px;
   color: #fff;
   border-radius: 3%;
   margin-top: 15px;
@@ -117,9 +116,9 @@
   z-index: 2;
   cursor: pointer;
   position:relative;
-  /* right: 30px; */
+  right: 30px;
   background-color: #2B495E;
-  /* float: right; */
+  float: right;
   padding: 6px 10px;
   margin-top: 15px;
   margin-right: 16px;
