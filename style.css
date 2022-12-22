@@ -1601,6 +1601,9 @@ h1{
   background-color: #111e27;
   color: #fff;
 }
+.cart h2{
+  background-color: #2B495E;
+}
 
 table{
   width: 100%;
