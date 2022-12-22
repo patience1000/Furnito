@@ -1601,7 +1601,21 @@ h1{
   background-color: #111e27;
   color: #fff;
 }
-/* .pricing{
+
+table{
+  width: 100%;
+  height: 13%;
+}
+.center{
+  text-align: center;
+  padding: 5px;
+}
+.spread{
   display: flex;
-  justify-content:space-around;
-} */
+  justify-content:space-between;
+  padding: 15px 5px 5px 10px;
+}
+
+.spread button {
+  padding: 4px 7px;
+}
