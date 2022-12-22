@@ -1597,8 +1597,11 @@ h1{
 
 .card{
   height: 500px;
-  width: 600px;
+  width: 400px;
   background-color: #111e27;
   color: #fff;
-  
 }
+/* .pricing{
+  display: flex;
+  justify-content:space-around;
+} */
