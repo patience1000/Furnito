@@ -1594,3 +1594,11 @@ h1{
   border-radius:5px 5px 0 0;
 }
 }
+
+.card{
+  height: 500px;
+  width: 600px;
+  background-color: #111e27;
+  color: #fff;
+  
+}
