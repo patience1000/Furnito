@@ -34,6 +34,6 @@ function Show2() {
 }
 
 function showCart(){
-document.getElementById('showCart').style.display = "block";
-document.getElementById('showCart').style.display = "none";
+document.getElementById('cart').style.display = "block";
+document.getElementById('cart').style.display = "none";
 }
