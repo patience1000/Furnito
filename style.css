@@ -1601,12 +1601,16 @@ h1{
   background-color: #111e27;
   color: #fff;
 }
-.card text{
-  background-color: #2B495E;
+.card-text{
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  background-color:#BC983C;
 }
-.cart button{
-  color: #a38129;
-  padding: 2px;
+.card-text button{
+  color: #fff;
+  background-color: #2B495E;
+  padding: 5px;
 }
 
 table{
