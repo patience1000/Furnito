@@ -33,3 +33,6 @@ function Show2() {
   document.getElementById('div2').style.display = "none";
 }
 
+function showCart(){
+document.getElementById()
+}
