@@ -1600,6 +1600,8 @@ h1{
   width: 400px;
   background-color: #111e27;
   color: #fff;
+  /* z-index: 100; */
+  display: none;
 }
 .card-text{
   display: flex;
