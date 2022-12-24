@@ -1601,7 +1601,7 @@ h1{
   background-color: #111e27;
   color: #fff;
   /* z-index: 100; */
-  display: none;
+  /* display: none; */
 }
 .card-text{
   display: flex;
