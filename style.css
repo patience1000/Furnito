@@ -149,7 +149,7 @@
     display: block;
  }
   .topnav .search-container{
-    display: block;
+    display: none;
   }
   .topnav .search-container button {
     font-size: 1em;
