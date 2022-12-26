@@ -9,7 +9,7 @@
   background-color: #BC983C;
  }
  
- .topnav a {
+ .topnav a{
   float: left;
   display: block;
   color: #f2f2f2;
@@ -149,7 +149,7 @@
     display: block;
  }
   .topnav .search-container{
-    display: none;
+    display: block;
   }
   .topnav .search-container button {
     font-size: 1em;
@@ -1600,7 +1600,8 @@ h1{
   width: 400px;
   background-color: #111e27;
   color: #fff;
-  /* z-index: 100; */
+  z-index: 1;
+  position:absolute;
   /* display: none; */
 }
 .card-text{
