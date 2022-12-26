@@ -1596,8 +1596,8 @@ h1{
 }
 
 .card{
-  height: 500px;
-  width: 400px;
+  height: 450px;
+  width: 300px;
   background-color: #111e27;
   color: #fff;
   z-index: 1;
@@ -1608,7 +1608,7 @@ h1{
   display: flex;
   padding: 5px;
   justify-content: space-between;
-  background-color:#BC983C;
+  background-color:#474234;
 }
 .card-text button{
   color: #fff;
