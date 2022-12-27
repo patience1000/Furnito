@@ -38,8 +38,8 @@ function Show2() {
 //   document.getElementById('cart').style.display = "none";
 // }
 
-function myFunction() {
-  var x = document.getElementById("myDIV");
+function showCart() {
+  var x = document.getElementById("cart");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
