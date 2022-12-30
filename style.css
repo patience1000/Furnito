@@ -1602,7 +1602,7 @@ h1{
   color: #fff;
   z-index: 1;
   position:absolute;
-  display: none;
+  /* display: none; */
 }
 .card-text{
   display: flex;
