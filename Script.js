@@ -37,7 +37,7 @@ function Show2() {
 //   document.getElementById('cart').style.display = "block";
 //   document.getElementById('cart').style.display = "none";
 // }
-document.getElementById('cart').addEventListener("click", showCart);
+document.getElementById('cart-btn').addEventListener("click", showCart);
 
 function showCart() {
   var x = document.getElementById("cart");
