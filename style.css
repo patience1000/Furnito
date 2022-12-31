@@ -1639,3 +1639,14 @@ table{
 .spread button {
   padding: 4px 7px;
 }
+/* User profile */
+
+#user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #a38129;
+
+}
