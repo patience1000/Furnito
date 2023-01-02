@@ -1654,7 +1654,23 @@ table{
   background-blend-mode:saturation;
 }
 .profile{
-  width: 300px;
-  height: 350px;
-  background-color: #ffffff;
+  /* width: 400px; */
+  /* height: 350px; */
+  /* background-color: #ffffff; */
+}
+.profile h2{
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+ .profile p{
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+  text-indent:10px;
+ }
+.profile input{
+  padding: 2% 25%;
+  border: 1px solid #a38129;
+  border-radius: 15px;
 }
