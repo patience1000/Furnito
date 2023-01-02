@@ -1654,7 +1654,7 @@ table{
   background-blend-mode:saturation;
 }
 .profile{
-
+text-align: center;
 }
 .profile h2{
   font-size: 2em;
@@ -1663,29 +1663,40 @@ table{
   font-weight: 300;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
 }
  .profile p{
   color: #fff;
-  font-size: 1.4em;
+  font-size: 1.3em;
+  font-weight: 300;
+  text-indent:10px;
+  padding-bottom: 30px;
+ }
+ #reg{
+  color: #BC983C;
+  font-size: 1.1em;
   font-weight: 300;
   text-indent:10px;
   padding-bottom: 30px;
  }
 .profile input{
-  padding: 2% 25%;
-  border: 3px solid #e9ba42;
-  border-radius: 15px;
-  
+  padding: 1.5% 30% 2% 2%;
+  outline: none;
+  color: #fff;
+  border: 1px solid #e9ba42;
+  background-color: transparent;
+  border-radius: 8px;
+  text-align: left;
 }
 .Con{
   padding: 2% 145px;
   color: #fff;
   background-color: #e9ba42;
-  box-shadow: 2px #2B495E;
-  margin: 20px 0;
+  box-shadow: 2px #f8f9fa;
+  margin: 30px 0px 20px;
 }
 .facebook{
+  margin-top: 5%;
   padding: 2% 115px;
   color: #fff;
   background-color: blue;
