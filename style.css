@@ -1654,23 +1654,39 @@ table{
   background-blend-mode:saturation;
 }
 .profile{
-  /* width: 400px; */
-  /* height: 350px; */
-  /* background-color: #ffffff; */
+
 }
 .profile h2{
-  font-weight: 500;
+  font-size: 2em;
+  text-align: center;
+  text-indent: 20px;
+  font-weight: 300;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
+  padding-bottom: 20px;
 }
  .profile p{
   color: #fff;
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: 300;
   text-indent:10px;
+  padding-bottom: 30px;
  }
 .profile input{
   padding: 2% 25%;
-  border: 1px solid #a38129;
+  border: 3px solid #e9ba42;
   border-radius: 15px;
+  
+}
+.Con{
+  padding: 2% 145px;
+  color: #fff;
+  background-color: #e9ba42;
+  box-shadow: 2px #2B495E;
+  margin: 20px 0;
+}
+.facebook{
+  padding: 2% 115px;
+  color: #fff;
+  background-color: blue;
 }
