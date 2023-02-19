@@ -11,7 +11,7 @@ function openPage(){
   var y = document.getElementById("search").value;
 
   if (y == "about"){
-    window.open("about.htm");
+    window.open("about.htm#about-section");
   }
 
   if(y == "sale"){
@@ -32,18 +32,11 @@ function Show2() {
   document.getElementById('div1').style.display = "block";
   document.getElementById('div2').style.display = "none";
 }
+function openNav() {
+  document.getElementById("cart").style.display = "block";
+}
 
-// function showCart(){
-//   document.getElementById('cart').style.display = "block";
-//   document.getElementById('cart').style.display = "none";
-// }
-document.getElementById('cart').addEventListener("click")
-function showCart() {
-  var x = document.getElementById("cart");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+function closeNav() {
+  document.getElementById("cart").style.display = "none";
 }
 

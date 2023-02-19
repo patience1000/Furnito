@@ -23,7 +23,7 @@
   <div class="topnav" id="myTopnav">
     <a href="#home" class="active">Home</a>
     <div class="dropdown">
-      <button class="dropbtn">Furnitures
+      <button id="fu" class="dropbtn">Furnitures
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
@@ -32,24 +32,81 @@
       </div>
     </div> 
     <a href="about.htm#div1">Sale</a>
-    <a href="#contact">Contact Us</a>
+    <a href="#contact" id="cu">Contact Us</a>
     <h2 id="head">Furnito</h2>
-    <div class="search-container">
+
+    <!-- <div class="search-container"> -->
       <form>
         <input type="text" placeholder="Search.." value="" id="search" onchange="openPage()">
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
-    </div>
+    <!-- </div> -->
+   
     <div id="icons"> 
       <a href="#fav" class="link"><i class="fa fa-heart" aria-hidden="true"></i></a>
       <a href="User.html" class="link"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-      <a href="cart.html" class="link" onclick="showCart()"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a> 
+      <a href="javascript:void(0);" class="link" style="cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a> 
+    </div>  
+    
+  
+
+      <div id="cart" class="sidenav">
+        <div class="card">
+            <div class="card-text">
+                <h2>CART</h2>
+                <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+            </div>           
+            <table>
+                <thead>
+                    <tr>
+                        <th>Products</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Office chair</td>
+                        <td>$1.00</td>
+                        <td class="center">1</td>
+                        <td>$1.00</td>
+                        <td class="center">
+                          <button class="btn btn-light cart-remove">
+                            &times;
+                          </button>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="center"><em>No items in cart</em></p>
+            <div class="spread">
+              <span><strong>Total:</strong> $1.00</span>
+              <button class="btn btn-light">Checkout</button>
+            </div>
+        </div>
+      </div>
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    
+  </div>
+
+   <!-- Shop Now -->
+  <div class="shop_now">
+    <div class="pep">
+      <h3>Your place will never be the same again with our</h3>
+      <p>Fantastic furniture.</p>
+      <img class="cushin" src="images/Ellipse 1.png">
+    </div>
+    <div class="shop-btn">
+      <button>Shop Now</button>
+    </div>
+    <div class="union">
+      <h6>MAY</h6>
+      <h4>Sale</h4>
+      <img src="Union.png" width=150px alt="">
     </div>
   </div>
   <div class="customer">
     <div class="furn-head">
-      <img class="cushin" src="images/Ellipse 1.png">
         Furnitures
     </div>
     <div class="cus-head">
