@@ -122,8 +122,9 @@
  #icons{
     float: right;
     padding-right: 20px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    position: relative;
+    right: 100px;
+    bottom: 25px;
   }
  
  .topnav .search-container button i{
