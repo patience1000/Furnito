@@ -144,6 +144,9 @@
   display: flex;
   background-color: #2B495E;
  }
+ .pep h4{
+  color: #fff;
+ }
  .pep h3{
   color: #fff;
   font-size: 1.3em;
