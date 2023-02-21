@@ -144,14 +144,15 @@
   display: flex;
   background-color: #2B495E;
  }
- .pep h4{
+ .pep h5{
   color: #fff;
   text-align: center;
+  padding: 5px;
  }
  .pep h3{
   color: #fff;
   font-size: 1.3em;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-left: 100px;
  }
  .pep p{
