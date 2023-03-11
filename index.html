@@ -11,44 +11,45 @@
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"rel="stylesheet">
    
    <!-- font awesome -->
-    <link rel="stylesheet" href="C:\Users\PMISHEKWO PATIENCE P\Desktop\WEB DEV\myProjects\Furniture_site\fontawesome-free-6.3.0-web"> 
+    <link rel="stylesheet" href="font-6/css/all.css"> 
    <!-- CSS -->
-   <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--  Javascript-->
    <script src="Script.js"></script>
 </head>
 <body>
-  <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <div class="dropdown">
-      <button id="fu" class="dropbtn">Furnitures
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#first-slide">Link 1</a>
-        <a href="about.htm#div2">Link 2</a>
-      </div>
-    </div> 
-    <a href="about.htm#div1">Sale</a>
-    <a href="#contact" id="cu">Contact Us</a>
+  <div class="topnav" id="myTopnav"> 
+    <div class="nav-a">
+        <a href="#home" class="active">Home</a>
+       <div class="dropdown">
+          <button id="fu" class="dropbtn">Furnitures
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#first-slide">Link 1</a>
+            <a href="about.htm#div2">Link 2</a>
+          </div>
+       </div> 
+       <a href="about.htm#div1">Sale</a>
+       <a href="#contact" id="cu">Contact Us</a>
+      
+    </div>
+    
     <h2 id="head">Furnito</h2>
 
-    <!-- <div class="search-container"> -->
+    <div id="icons">         
+      <a href="#fav" class="link"><i class="fa-regular fa-heart" aria-hidden="true"></i></a>
+      <a href="javascript:void(0);" class="link" style="cursor:pointer" onclick="openNav()"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></a> 
+      <a href="User.html" class="link"><i class="fa-regular fa-user" aria-hidden="true"></i></a>    
+    </div> 
+
+    <div class="search-container">
       <form>
         <input type="text" placeholder="Search.." value="" id="search" onchange="openPage()">
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
-    <!-- </div> -->
-   
-    <div id="icons">         
-      <a href="#fav" class="link"><i class="fa-light fa-heart" aria-hidden="true"></i></a>
-      <a href="User.html" class="link"><i class="fa-thin fa-user" aria-hidden="true"></i></a>
-      <a href="javascript:void(0);" class="link" style="cursor:pointer" onclick="openNav()"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></a> 
-    </div>  
-    
-  
+    </div> 
 
       <div id="cart" class="sidenav">
         <div class="card">
@@ -92,6 +93,7 @@
    <!-- Shop Now -->
   <div class="shop_now">
     <div class="pep">
+      <i class="fa-regular fa-motor" aria-hidden="true"></i>
       <h5>Free shopping - shop now for lower discount</h5>
       <h3>Your place will never be the same again with our</h3>
       <p>Fantastic furniture.</p>
